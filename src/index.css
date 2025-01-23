@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  @apply m-0 h-full min-w-80;
+}
+
+body {
+  @apply bg-neutral-800 p-8 text-neutral-300;
+}
+
+/* html, */
+/* body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
